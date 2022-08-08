@@ -1,6 +1,6 @@
 # DevinHouse---Projeto-Avaliativo-1
 <p align="center">
-  <img alt="Code" src="./img/logo-dev.png">
+  <img alt="logo dev" src="./img/logo-dev.png">
 
 <h4 align="center"> 
 	🚧  DEVinKnowledge 🚀 Concluído 🚀 🚧
