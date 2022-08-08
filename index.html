@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./img/code.png" type="image/x-icon">
+    <title>DEVinKnowledge</title>
+</head>
+<body>
+    <nav>
+        <header class="header-logo">
+            <img src="./img/code.png" alt="imagem código">
+            <div>
+                <h1><small>DEVin</small>Knowledge</h1>
+                <p>Learn, Code and Save</p>
+            </div> 
+        </header>                                     
+        <div class="pesquisa">                
+            <input type="text" id="pesquisa" placeholder="Pesquise por um título">
+            <button id="buscar"><img src="./img/magnifying-glass.png" alt=""></button>
+        </div>                          
+    </nav>  
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-head" id="modal-head">
+          <span class="close">&times</span> 
+          <div class="modal-items" id="modal-items"></div>                 
+        </div>              
+    </div>    
+    <div class="pagina">                     
+        <div class="conteudo">  
+            <div class="estatisticas-section" >                 
+                <div class="estatisticas" id="estatisticas"></div> 
+                <div class="btn-dica" id="btn-abre-form">
+                    <h4>Nova Dica</h4> 
+                    <p>+</p>
+                </div>                                
+            </div>      
+            <div class="principal" id="principal">
+                <div class="div-aux"></div>                   
+                <main class="main" id="main">                
+                    <ul class="cards" id="cards"></ul>                                      
+                </main>                  
+            </div>
+        </div>              
+    </div> 
+    <footer>
+        <p><small>Anderson Aguiar &copy; 2022 Todos os direitos reservados.</small></p>
+    </footer>           
+</body>
+<script type="module" src="./src/script.js" defer></script>
+</html>
