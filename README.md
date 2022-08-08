@@ -84,7 +84,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+$ git clone git@github.com:andersonaguia/DevinHouse---Projeto-Avaliativo-1.git
 
 # Utilize a ferramenta Live Server para executar o projeto no navegador
 
